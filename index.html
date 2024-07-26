@@ -69,10 +69,10 @@
             <div class="experience left">
                 <div class="content">
                     <h3>Software Engineer Intern - <i class="company-name">Credit Acceptance</i></h3>
-                    <p >Southfield, Michigan | May 2024 – Present</p>
+                    <p >Southfield, Michigan | May 2024 – August 2024</p>
                     <ul>
                         <li>Implemented a feature that allows users to directly update vehicle price indicators and status on the portal, reducing complete time by 3 days and eliminating the need for developer intervention.</li>
-                        <li>Actively facilitating the migration of applications from WebLogic to Tomcat by identifying and fixing bugs, ensuring a smooth transition, and enhancing system stability.</li>
+                        <li>Facilitated the migration of applications from WebLogic to Tomcat by identifying and fixing bugs, ensuring a smooth transition, and enhancing system stability.</li>
                     </ul>
                 </div>
             </div>
@@ -152,10 +152,21 @@
         <h2>Projects</h2>
         <div class="projects-container">
             <div class="project-card">
+                <img src="./assets/red-black.png" alt="Ecommerce">
+                <div class="content">
+                    <h3>Library Management System</h3>
+                    <p>A Library Management System using Java, Red-Black trees, Heaps.</p>
+                </div>
+                <div class="buttons">
+                    <button>View Demo</button>
+                    <button onclick=" window.open('https://github.com/charithesh16/Gator-Library-Management-System','_blank')"">GitHub</button>
+                </div>
+            </div>
+            <div class="project-card">
                 <img src="assets/emotion-recognition.png" alt="Human Emotion Detection">
                 <div class="content">
                     <h3>Human Emotion Detection</h3>
-                    <p>Engineered a deep learning model for detecting and interpreting human emotions using Convolutional Neural Networks. Integrated the model with a Flask-based frontend to create an end-to-end web application.</p>
+                    <p>A Django application integrated with deep learning model to human emotions using realtime video streaming, text and image.</p>
                 </div>
                 <div class="buttons">
                     <button>View Demo</button>
@@ -188,21 +199,45 @@
                 <img src="./assets/plant-seedlings.png" alt="COVID-19 Live Information">
                 <div class="content">
                     <h3>Plant Seedlings Classification</h3>
-                    <p>A web based Flask application that classifies the uploaded plant seedling image to one of the 12 different species. Powered a deep learning model using Convolutional Neural Networks for classification.</p>
+                    <p>A web based Flask application that classifies the uploaded plant seedling image to one of the 12 different species using Convolutional Neural Networks.</p>
                 </div>
                 <div class="buttons">
                     <button>View Demo</button>
-                    <button>GitHub</button>
+                    <button onclick=" window.open('https://github.com/charithesh16/Plant-Seedlings-Classification','_blank')"">GitHub</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./assets/ecommerce.png" alt="Ecommerce">
+                <div class="content">
+                    <h3>E-commerce application</h3>
+                    <p>A demo E-commerce application with cart,orders and invoice capabilities developed using Node.js and React.js</p>
+                </div>
+                <div class="buttons">
+                    <button>View Demo</button>
+                    <button onclick=" window.open('https://github.com/charithesh16/ecommerce','_blank')"">GitHub</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./assets/confusion.png" alt="Ecommerce">
+                <div class="content">
+                    <h3>Restaurant Website</h3>
+                    <p>A static react web app.</p>
+                </div>
+                <div class="buttons">
+                    
+                    <button onclick=" window.open('https://charithesh16.github.io/confusion/','_blank')"">View Demo</button>
+                    <button onclick=" window.open('https://github.com/charithesh16/confusion','_blank')"">GitHub</button>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
    <section id="contact">
         <div class="contact-info">
             <h2>Contact Information</h2>
             <ul>
-                <li><i class="fas fa-envelope"></i> cpuppireddy@ufl.edu</li>
+                <li><i class="fas fa-envelope"></i><a  style="color: white;" href="mailto:charithesh1632@gmail.com">charithesh1632@gmail.com</a></li>
                 <li><i class="fas fa-phone"></i> +1 (352)-709-9293</li>
                 <li><i class="fas fa-map-marker-alt"></i> Gainesville, Florida</li>
             </ul>
@@ -212,16 +247,17 @@
                 <!-- Add more social media icons as needed -->
             </div>
         </div>
-        <div class="contact-form">
+        <!-- <div class="contact-form">
             <h2>Get In Touch</h2>
-            <form>
+            <form action="mailto:charithesh1632@gmail.com" method="post" enctype="text/plain">
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
                 <textarea placeholder="Message" required rows="5"></textarea>
                 <button type="submit">Send Message</button>
             </form>
-        </div>
+        </div> -->
     </section>
+    <div style="color: white; justify-content: center;align-items: center;display: flex;">Copyright © 2024 Charithesh Puppireddy. All Rights Reserved.</div>
 </main>
 <script src="script.js"></script>
 </body>

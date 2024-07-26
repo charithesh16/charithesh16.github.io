@@ -218,7 +218,7 @@ ul {
     margin-bottom: 2rem;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 15px 15px 15px rgba(29, 27, 27, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
     position: relative;
